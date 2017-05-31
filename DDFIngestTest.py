@@ -33,7 +33,7 @@ def main():
     elapsed = time.time() - start
     num_inserted = get_number_of_inserted_records(response, ingest_type)
 
-    print("{} record(s) inserted in {} seconds.".format(num_inserted, round(elapsed, 2)))
+    print("{} record(s) inserted in {} seconds.".format(num_inserted, round(elapsed, 3)))
 
 
 def get_number_of_inserted_records(response, ingest_type):
