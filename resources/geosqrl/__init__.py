@@ -1,0 +1,1 @@
+from resources.geosqrl import geosqrl_generator
